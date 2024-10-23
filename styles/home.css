@@ -138,3 +138,27 @@ nav a:hover {
   list-style: none;
   list-style-image: url(./../assets/images/community-card-list-img.png);
 }
+
+.bdd-app {
+  margin: 50px;
+  gap: 20px;
+}
+.bdd-app > div {
+  width: 500px;
+  height: 200px;
+  gap: 100px;
+}
+.bdd-app img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.app-img {
+  height: 100px;
+}
+
+.bdd-app > p {
+  font-family: TheMix-9-BlackCaps;
+  font-size: 20px;
+  color: #434141;
+}
