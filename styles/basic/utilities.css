@@ -13,6 +13,9 @@
 .space-around {
   justify-content: space-around;
 }
-.center-vertically {
+.align-center {
   align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
