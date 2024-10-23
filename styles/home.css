@@ -27,7 +27,8 @@ nav li {
   list-style: none;
 }
 
-nav button {
+nav button,
+.community-card button {
   padding: 10px 20px;
   border-radius: 30px;
 }
@@ -55,7 +56,6 @@ nav a:hover {
 }
 .slide-text {
   flex-grow: 1;
-  background-color: rgb(240, 248, 255, 0.2);
   padding: 50px;
 }
 .slide-text > p {
@@ -67,18 +67,19 @@ nav a:hover {
   line-height: 1.3em;
   font-stretch: expanded;
 }
-.foundation-text > h2 {
+.foundation-text > h2,
+.community-section h2 {
   text-align: center;
   font-family: TheMix-9-BlackCaps;
   font-size: 40px;
   font-weight: 600;
   margin-top: 20px;
   padding: 20px;
+  text-transform: uppercase;
   font-stretch: expanded;
 }
 
 .foundation-card {
-  background-color: aqua;
   padding: 30px;
   width: 230px;
   margin: 10px;
@@ -86,7 +87,8 @@ nav a:hover {
   text-align: center;
   background-color: white;
 }
-.foundation-card h6 {
+.foundation-card h6,
+.community-card h4 {
   font-family: TheMix-9-BlackCaps;
   font-size: 20px;
   font-weight: 600;
@@ -96,4 +98,43 @@ nav a:hover {
   padding: 10px;
   width: 80%;
   height: 120px;
+}
+
+.vision-bg {
+  width: 110%;
+  height: 691px;
+  margin: 30px 0;
+  background-image: url("./../assets/images/Shared-Space-at-BDD.png");
+  opacity: 0.7;
+  /* position: fixed; */
+}
+
+.vision {
+  width: 100%;
+  height: fit-content;
+  /* position: absolute; */
+  background-color: transparent;
+  padding: 50px;
+}
+.vision img {
+  width: 500px;
+  height: 300px;
+}
+
+.community-section img {
+  width: 400px;
+  height: 350px;
+}
+.community-card {
+  border-radius: 2px;
+  background-image: url(./../assets/images/bg-com-card.png);
+  width: 200px;
+  padding: 40px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 0px 0px rgb(219, 224, 226) inset;
+}
+.community-card ul {
+  padding: 10px;
+  list-style: none;
+  list-style-image: url(./../assets/images/community-card-list-img.png);
 }
