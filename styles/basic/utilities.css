@@ -5,7 +5,9 @@
 .column {
   flex-direction: column;
 }
-
+.wrap {
+  flex-wrap: wrap;
+}
 .space-between {
   justify-content: space-between;
 }

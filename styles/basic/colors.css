@@ -7,3 +7,19 @@
 .primary-bg {
   background-color: #0078be;
 }
+
+.blue-hover:hover {
+  background-color: rgb(215, 215, 249, 0.3);
+}
+.aqua-hover:hover {
+  background-color: rgb(199, 245, 245, 0.3);
+}
+.green-hover:hover {
+  background-color: rgb(196, 244, 228, 0.3);
+}
+.yellow-hover:hover {
+  background-color: rgb(232, 228, 181, 0.3);
+}
+.pink-hover:hover {
+  background-color: rgb(244, 196, 234, 0.3);
+}
