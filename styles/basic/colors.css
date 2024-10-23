@@ -1,6 +1,9 @@
-.text-white {
+.primary-text {
   color: white;
 }
 .dark-bg {
   background-color: rgb(65, 63, 63);
+}
+.primary-bg {
+  background-color: #0078be;
 }
